@@ -13,7 +13,7 @@
 ["table" "piecewise"] @keyword
 
 ; pre-defined constants
-["PI" "pi" "Pi" "inf" "Inf" "INF"] @constant
+["PI" "pi" "Pi" "inf" "Inf" "INF"] @constant.builtin
 
 ; predefined function names
 ["cos" "sin" "tan" "acos" "asin" "atan" "cosh" "sinh" "tanh" "acosh" "asinh" "atanh"
