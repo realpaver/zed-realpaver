@@ -9,4 +9,4 @@ repository = "https://gitlab.univ-nantes.fr/realpavergroup/zed-realpaver"
 [grammars.realpaver]
 # repository = "file://Users/user/Boulot/dev/tree-sitter-realpaver"
 repository = "https://github.com/realpaver/tree-sitter-realpaver"
-commit = "baf9f588d251be0d2ddf6da107c0a907974e31f2"
+commit = "8fe86a3116b9e90fd68e2d8d75f3bd19ec950c9a"

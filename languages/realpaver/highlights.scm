@@ -17,7 +17,7 @@
 
 ; predefined function names
 ["cos" "sin" "tan" "acos" "asin" "atan" "cosh" "sinh" "tanh" "acosh" "asinh" "atanh"
-  "log" "exp" "abs" "sgn" "pow" "sqrt" "sqr" "min" "max"] @function
+  "log" "exp" "abs" "sgn" "pow" "sqrt" "sqr" "min" "max"] @function.builtin
 
 
 ; variables
@@ -35,6 +35,9 @@
 ; functions
 (function_definition
   fun_name: (identifier) @function)
+
+(call_expression
+    fun_name: (ref (identifier)) @name) @function
 
 ; comments
 (comment) @comment
